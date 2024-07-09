@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(226, 61, 61);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.full
+{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.b
+{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+}
+.image {
+    margin-right: 20px; 
+    padding: 10px;
+} 
+.content p, .content h2, .content h3 {
+    margin-top: 0; 
+    margin-bottom: 10px; 
+} 
